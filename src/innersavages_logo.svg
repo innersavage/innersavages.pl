@@ -1,0 +1,26 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="685 481 380 102"><g data-item-type="text" data-item="Business" id="logo__item--business" class="logo__item">
+                <g class="logo__item__inner" transform="translate(811.265625 541.3710098184399) scale(1 1) rotate(0 0 0)">
+                    <text data-part-id="logo__item--business" dy="0" dominant-baseline="auto" alignment-baseline="auto" font-family="Montserrat" font-size="32px" fill="#FFAD26" letter-spacing="0" font-weight="bold" font-style="normal" data-font-family="Montserrat" data-font-weight="bold" data-font-style="normal" data-ttf-url="/builder_assets/fontsttf/font-montserrat-bold-normal.ttf" data-font-filename="montserrat-bold-normal">Inner Savages</text>
+                </g>
+            </g><g data-item-type="image" data-item="Image" data-logo-item="" id="logo__item--logo_0" class="logo__item">
+    <g class="logo__item__inner" transform="translate(684.332619918956 466) scale(0.8528784833175449 0.8528784833175449) rotate(0 0 0)">
+        
+<g>
+	<rect x="133" y="57" fill="#FFAD26" width="9" height="10" data-part-id="logo__item--logo_0__0"></rect>
+	<path fill="#FFAD26" d="M125,82h-2v0.4l-0.4-0.4H112V70h13l0,0h4V52h-11V35.7c-5-0.5-10-0.7-14-0.8V52h14v14h-14V53H84V35.4   c-13,1-31,4.1-52.9,12.4l19.3,52.1c0,0,30.6-18.2,64.4-13.7c1.4,0.1,4.2,0.4,7.9,1.1c0.8,0.1,1.8,0.3,2.6,0.5   c5.4,1.1,11.8,2.9,18.8,5.8V73h-19V82z" data-part-id="logo__item--logo_0__1"></path>
+	<rect x="139" y="45" fill="#FFAD26" width="6" height="5" data-part-id="logo__item--logo_0__2"></rect>
+	<rect x="124" y="42" fill="#FFAD26" width="7" height="7" data-part-id="logo__item--logo_0__3"></rect>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="70.8041" y1="74.1644" x2="11.7656" y2="21.2759">
+		<stop offset="0" style="stop-color:#3A5675"></stop>
+		<stop offset="1" style="stop-color:#00ADE0"></stop>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M48.5,106.9L25.4,44.4c0,0,35.2-18.6,92.9-14.1c0,0-60.6-25.9-114,9.2l37,94.6   c0,0,40.8-35.3,101.4-36.8C142.6,97.3,106.6,78.7,48.5,106.9z" data-part-id="logo__item--logo_0__4"></path>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="69.3809" y1="75.7467" x2="10.3396" y2="22.8557">
+		<stop offset="0" style="stop-color:#3A5675"></stop>
+		<stop offset="1" style="stop-color:#00ADE0"></stop>
+	</linearGradient>
+	<path fill="url(#SVGID_2_)" d="M78.6,119.2l9.6,10.1l9.1-8.5l-0.5-1.9c0,0,13.8-12.7,41.7-17.9C138.6,101,106.7,101.3,78.6,119.2z" data-part-id="logo__item--logo_0__5"></path>
+</g>
+
+    </g>
+</g></svg>
