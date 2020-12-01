@@ -72,7 +72,7 @@ exports.createPages = ({ graphql, actions }) => {
             }
             pagesFooter: allMarkdownRemark(sort: {fields: frontmatter___order, order: DESC}
                                      limit: 1000
-                                     filter: {frontmatter: {menu: {eq: true}
+                                     filter: {frontmatter: {menu: {eq: false}
                                                             date: {eq: null}}
                                      }) {
               edges {
