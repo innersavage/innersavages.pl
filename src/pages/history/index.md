@@ -191,6 +191,7 @@ składzie:
  - Piotr Olszewski
  
 ---
+---
 
 ## 28-29.09.2019, Online
 #### BSides Delhi CTF 2019
@@ -254,6 +255,7 @@ nazwą __Inner Savages__. Ówczesny zespół stanowią:
  - Jakub Zięba
  
 ---
+---
 
 ## 24-25.11.2018, Warszawa (Global Expo)
 #### HackYeah 2018
@@ -272,3 +274,5 @@ Pod tą nazwą wygrywamy imprezę zdobywając 1 miejsce, w zabawie wzięli udzia
  - Jakub Skory
  - Łukasz Szymański
  - Jakub Zięba 
+ 
+---
