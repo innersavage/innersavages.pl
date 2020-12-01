@@ -6,6 +6,15 @@ order: 30
 
 <!-- end -->
 
+## 1.12.2020, Online
+#### Publikujemy stronę internetową
+Po paru miesiącach traktowania zadania zrobienia strony stowarzyszenia jak *gorącego ziemniaka* i przydzielania go 
+kolejnym osobom Łukasz wziął sprawy w swoje ręce. Po dwóch dniach pracy strona zostaje opublikowana pod adresem
+https://innersavages.pl. ponadto repozytorium ze źródłami zostaje upublicznione na GitHubie pod adresem
+https://github.com/innersavage/innersavages.pl.
+
+---
+
 ## 27-29.11.2020, Online
 #### HackYeah Online 2020 | November
 Dostaliśmy się do finału (top5) kategorii __Zero Waste__, przygotowując projekt [re-wrap.it](https://re-wrap.it/).
@@ -259,7 +268,17 @@ nazwą __Inner Savages__. Ówczesny zespół stanowią:
 
 ## 24-25.11.2018, Warszawa (Global Expo)
 #### HackYeah 2018
-Nie wiem co tu się stało, bo nie brałem udziału :-) Jakub Skory/Jakub Zięba proszę o uzupełnienie.
+Impreza zaliczona w składzie:  
+ - Jakub Skory
+ - Janek Baumgart
+ - Paweł Szymankiewicz
+ - Jakub Zięba
+ - Mateusz Borowski
+ 
+Bierzemy po raz pierwszy udział w drugim największym wtedy na świecie wydarzeniu typu hackathon. 
+Projektujemy aplikację odczytującą paragony w zadaniu banku PKO BP, jednak przez przeoczenie odmiennego sposobu na
+rejestrację swojego rozwiązania nie dostajemy się do fazy finałowej. Po imprezie otrzymujemy zaproszenie na 
+prezentację naszej aplikacji dla pracowników banku.
 
 ---
 

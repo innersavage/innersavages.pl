@@ -15,6 +15,7 @@ import Container from '../components/Container';
 import FeaturedImage from '../components/FeaturedImage';
 import PageNav from '../components/PageNav';
 import Share from '../components/Share';
+import Wrapper from "../components/Pagination/Wrapper";
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -70,6 +71,7 @@ class BlogPostTemplate extends React.Component {
                 {next.frontmatter.title} →
               </Button>
             )}
+            <div style={{ margin: '10px' }}><a href={'/privacypolicy/'}>Polityka Prywatności</a></div>
             <div style={{ margin: '10px' }}>Inner Savages &copy; 2020</div>
           </PageNav>
         </Container>

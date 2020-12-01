@@ -16,7 +16,9 @@ exports.createPages = ({ graphql, actions }) => {
           {
             posts: allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}
                                             limit: 1000
-                                            filter: {frontmatter: {menu: {ne: true}}}) {
+                                            filter: {frontmatter: {menu: {ne: true}
+                                                                   date: {ne: null}}
+                                                    }) {
               edges {
                 node {
                   fields {
@@ -28,7 +30,7 @@ exports.createPages = ({ graphql, actions }) => {
                     date(formatString: "MMMM D, YYYY")
                     featuredImage {
                       childImageSharp {
-                        sizes(maxWidth: 850) {
+                        sizes(maxWidth: 2850, quality: 100) {
                           base64
                           aspectRatio
                           src
@@ -41,7 +43,7 @@ exports.createPages = ({ graphql, actions }) => {
                 }
               }
             }
-            pages: allMarkdownRemark(sort: {fields: frontmatter___order, order: DESC}
+            pagesMenu: allMarkdownRemark(sort: {fields: frontmatter___order, order: DESC}
                                      limit: 1000
                                      filter: {frontmatter: {menu: {eq: true}}}) {
               edges {
@@ -55,7 +57,36 @@ exports.createPages = ({ graphql, actions }) => {
                     date(formatString: "MMMM D, YYYY")
                     featuredImage {
                       childImageSharp {
-                        sizes(maxWidth: 850) {
+                        sizes(maxWidth: 2850, quality: 100) {
+                          base64
+                          aspectRatio
+                          src
+                          srcSet
+                          sizes
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            pagesFooter: allMarkdownRemark(sort: {fields: frontmatter___order, order: DESC}
+                                     limit: 1000
+                                     filter: {frontmatter: {menu: {eq: true}
+                                                            date: {eq: null}}
+                                     }) {
+              edges {
+                node {
+                  fields {
+                    slug
+                  }
+                  excerpt
+                  frontmatter {
+                    title
+                    date(formatString: "MMMM D, YYYY")
+                    featuredImage {
+                      childImageSharp {
+                        sizes(maxWidth: 2850, quality: 100) {
                           base64
                           aspectRatio
                           src
@@ -78,7 +109,8 @@ exports.createPages = ({ graphql, actions }) => {
 
         // Create blog posts pages.
         const posts = result.data.posts.edges;
-        const pages = result.data.pages.edges;
+        const pagesMenu = result.data.pagesMenu.edges;
+        const pagesFooter = result.data.pagesFooter.edges;
 
         _.each(posts, (post, index) => {
           const previous =
@@ -103,10 +135,25 @@ exports.createPages = ({ graphql, actions }) => {
           });
         });
 
-        _.each(pages, (page, index) => {
+        _.each(pagesMenu, (page, index) => {
           const previous =
-            index === pages.length - 1 ? null : pages[index + 1].node;
-          const next = index === 0 ? null : pages[index - 1].node;
+            index === pagesMenu.length - 1 ? null : pagesMenu[index + 1].node;
+          const next = index === 0 ? null : pagesMenu[index - 1].node;
+          createPage({
+            path: page.node.fields.slug,
+            component: blogPost,
+            context: {
+              slug: page.node.fields.slug,
+              previous,
+              next,
+            },
+          });
+        });
+
+        _.each(pagesFooter, (page, index) => {
+          const previous =
+            index === pagesFooter.length - 1 ? null : pagesFooter[index + 1].node;
+          const next = index === 0 ? null : pagesFooter[index - 1].node;
           createPage({
             path: page.node.fields.slug,
             component: blogPost,

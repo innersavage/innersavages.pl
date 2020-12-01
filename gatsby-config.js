@@ -44,9 +44,20 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingIds: [
+          "G-XZGX687LN2"
+        ],
+        gtagConfig: {
+          optimize_id: "G-XZGX687LN2",
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: false,
+          respectDNT: true,
+        },
       },
     },
     `gatsby-plugin-feed`,
@@ -59,7 +70,7 @@ module.exports = {
         background_color: '#fff',
         theme_color: userConfig.primaryColor,
         display: 'minimal-ui',
-        icon: 'src/innersavages_logo.svg',
+        icon: 'src/innersavages_logo.png',
       },
     },
     `gatsby-plugin-offline`,

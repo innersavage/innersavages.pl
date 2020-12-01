@@ -11,8 +11,6 @@ import Pagination from '../components/Pagination';
 import Summary from '../components/Summary';
 
 const IndexPage = ({ pageContext, data }) => {
-  console.log(pageContext)
-  console.log(data)
   const { index, group, pageCount} = pageContext;
   const previousUrl = index - 1 === 1 ? '' : (index - 1).toString();
   const nextUrl = (index + 1).toString();

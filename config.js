@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Strona główna', // Required
   author: 'Stowarzyszenie Inner Savages', // Required
-  // description: 'Strona Stowarzyszenia',
+  description: 'Strona Stowarzyszenia',
   primaryColor: '#3498db', // Required
   menuColor: '#035aa6',
   showHeaderImage: true,

@@ -12,6 +12,7 @@ function Pagination({previousUrl, nextUrl, isFirst = false, isLast = false}) {
       {!isLast &&
         <Button to={nextUrl}>Older Posts &rarr;</Button>
       }
+      <div style={{ margin: '10px' }}><a href={'/privacypolicy/'}>Polityka Prywatności</a></div>
       <div style={{ margin: '10px' }}>Inner Savages &copy; 2020</div>
     </Wrapper>
   );
