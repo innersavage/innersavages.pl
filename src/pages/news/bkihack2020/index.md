@@ -1,24 +1,39 @@
 ---
-title: Hello World
-date: "2018-06-30"
+title: Sukcesy na 4. Bydgoskim Hackathonie
+date: "2020-11-22"
+featuredImage: './bki.png'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. 
+Podwójny sukces stowarzyszenia!!! Zespoły Outer Savages oraz Inner Savages zdobywają 1 i 3 miejsce na tegorocznym 
+wydarzeniu.
 
 <!-- end -->
 
-Fusce at pharetra diam. Sed eget erat nibh. Nulla condimentum eros a nisi placerat, nec ultrices arcu dictum. Vestibulum nec elementum mi, id tempor ligula. Etiam ut lectus ac quam facilisis sodales. Donec laoreet justo id diam aliquet aliquet. Vivamus arcu est, varius in erat non, pharetra pulvinar magna. Fusce quis elementum nulla.
+Chcielibyśmy serdecznie podziękować Bydgoskiemu Klastrowi Informatycznemu za możliwość wzięcia po raz kolejny
+udziału w Bydgoskim Hackathonie.
 
-Nullam tristique ante quis gravida aliquet. Donec elementum, leo eu interdum mattis, erat quam vestibulum nunc, nec convallis eros risus ut enim. Sed maximus odio tincidunt velit congue molestie. Nunc in pharetra eros, id pulvinar justo. Pellentesque quis accumsan leo. Praesent efficitur magna a posuere viverra. Morbi sit amet tincidunt mauris. Vestibulum sed maximus felis. Proin in tellus eu nisi dictum posuere eu id felis. Donec eget mi sit amet neque efficitur suscipit ut ut neque. Vivamus egestas, augue vitae vestibulum feugiat, lorem elit lobortis nulla, eget ornare arcu ipsum ac lacus. Proin a suscipit ligula, non facilisis nibh. Nunc et eros magna.
+Impreza w tym roku odbyła się online i miała charakter międzynarodowy. Zespoły pracowały nad swoimi pomysłami przez
+24 godziny od 18:00 w piątek 20 listopada do godziny 18:00 w sobotę 21 listopada.
 
->Aenean quis nisi eros. Praesent a libero et ante sagittis dictum eget id ipsum. Duis sit amet bibendum justo. Morbi faucibus vehicula bibendum. Praesent ornare hendrerit commodo. Praesent sit amet nisi mauris. Aenean maximus pharetra lacinia. Praesent efficitur erat id dolor laoreet rhoncus. Cras eu efficitur arcu. Nunc pretium, nunc sit amet rutrum molestie, arcu nisi tempus ligula, eu dapibus leo tortor in quam.
+Gratulujemy członkom naszego stowarzyszenia, którzy zdobyli 1 oraz 3 miejsca na podium.
 
-Vivamus viverra id ipsum nec hendrerit. Fusce mollis enim et ultricies varius. Nam at dictum augue, id dictum augue. Fusce laoreet purus id iaculis cursus. Donec non velit est. Integer pellentesque viverra sapien, id rhoncus ipsum dictum ac. Aliquam vel maximus tortor, vitae interdum turpis. Etiam egestas elementum massa, id dictum magna suscipit vel. Curabitur mi tellus, pharetra eget nisi vitae, blandit vulputate nibh. Aenean tincidunt purus eu feugiat pulvinar. Maecenas quis laoreet lorem, a molestie urna. Cras iaculis justo elit, nec venenatis ante sollicitudin a. Cras eu pellentesque arcu, sit amet auctor felis.
+__Outer Savages__ w składzie:
+ - Monika Mohylowska
+ - Janek Baumgart
+ - Andrzej Borowicz
+ - Łukasz Szymański  
+ 
+zdobywają 1 miejsce projektem __Smart Sharing__.
 
-```javascript
-$(document).ready(function() {
-    console.log('Welcome!');
-})
-```
+![](./1stplace.jpeg "Pierwsze miejsce")
 
-Curabitur non blandit dui. Maecenas in ipsum nec leo pellentesque sodales et nec quam. Ut ut facilisis metus, sit amet aliquam nibh. Quisque blandit dui quis augue dictum vehicula.
+__Inner Savages__ w składzie:
+ - Izabela Skora
+ - Jakub Skory
+ - Jakub Zięba  
+
+zdobywają 3 miejsce projektem __W Kontakcie__.
+
+![](./3rdplace.jpeg "Trzecie miejsce")
+
+Gratulujemy wszystkim zwycięzcom i uczestnikom. Do zobaczenia za rok!
