@@ -14,10 +14,36 @@ exports.createPages = ({ graphql, actions }) => {
       graphql(
         `
           {
-            allMarkdownRemark(
-              sort: { fields: [frontmatter___date], order: DESC }
-              limit: 1000
-            ) {
+            posts: allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}
+                                            limit: 1000
+                                            filter: {frontmatter: {menu: {ne: true}}}) {
+              edges {
+                node {
+                  fields {
+                    slug
+                  }
+                  excerpt
+                  frontmatter {
+                    title
+                    date(formatString: "MMMM D, YYYY")
+                    featuredImage {
+                      childImageSharp {
+                        sizes(maxWidth: 850) {
+                          base64
+                          aspectRatio
+                          src
+                          srcSet
+                          sizes
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            pages: allMarkdownRemark(sort: {fields: frontmatter___order, order: DESC}
+                                     limit: 1000
+                                     filter: {frontmatter: {menu: {eq: true}}}) {
               edges {
                 node {
                   fields {
@@ -51,7 +77,8 @@ exports.createPages = ({ graphql, actions }) => {
         }
 
         // Create blog posts pages.
-        const posts = result.data.allMarkdownRemark.edges;
+        const posts = result.data.posts.edges;
+        const pages = result.data.pages.edges;
 
         _.each(posts, (post, index) => {
           const previous =
@@ -59,7 +86,7 @@ exports.createPages = ({ graphql, actions }) => {
           const next = index === 0 ? null : posts[index - 1].node;
 
           createPaginatedPages({
-            edges: result.data.allMarkdownRemark.edges,
+            edges: result.data.posts.edges,
             createPage: createPage,
             pageTemplate: 'src/templates/index.js',
             pageLength: userConfig.postsPerPage,
@@ -75,6 +102,22 @@ exports.createPages = ({ graphql, actions }) => {
             },
           });
         });
+
+        _.each(pages, (page, index) => {
+          const previous =
+            index === pages.length - 1 ? null : pages[index + 1].node;
+          const next = index === 0 ? null : pages[index - 1].node;
+          createPage({
+            path: page.node.fields.slug,
+            component: blogPost,
+            context: {
+              slug: page.node.fields.slug,
+              previous,
+              next,
+            },
+          });
+        });
+
       }),
     );
   });
