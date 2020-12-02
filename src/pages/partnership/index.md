@@ -20,6 +20,6 @@ Zachęcamy również do przekazywania darowizn na rzecz naszego stowarzyszenia.
 >
 > Tytułem: Darowizna na cele statutowe
 
-Zgodnie z obowiązującym prawem darczyńcami mogą być osoby fizyczne i osobny prawne (firmy, spółki itd.).
+Zgodnie z obowiązującym prawem darczyńcami mogą być osoby fizyczne i osoby prawne (firmy, spółki itd.).
 Od przekazanych darowizn przysługuje też odliczenie podatkowe (na formularzach PIT-O dla osób fizycznych oraz CIT-D dla
 osób prawnych). W zamian oferujemy dobre słowo i podziękowania opublikowane na naszej stronie.
