@@ -1,11 +1,11 @@
 ---
-title: Sukcesy na 4. Bydgoskim Hackathonie
+title: Podwójny sukces na 4. Bydgoskim Hackathonie
 date: "2020-11-22"
 featuredImage: './bki.png'
 ---
 
-Podwójny sukces stowarzyszenia!!! Zespoły Outer Savages oraz Inner Savages zdobywają 1 i 3 miejsce na tegorocznym 
-wydarzeniu.
+Podwójny sukces członków naszego stowarzyszenia!!! Zespoły Outer Savages oraz Inner Savages zdobywają 1 i 3 miejsce na 
+tegorocznym 4. Bydgoskim Hackathonie.
 
 <!-- end -->
 
