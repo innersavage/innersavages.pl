@@ -15,7 +15,7 @@ pierwszy natomiast jako stowarzyszenie.
 Przez 40 godzin pracowaliśmy nad projektem [re-wrap.it](https://re-wrap.it/) w ramach kategorii __Zero Waste__. 
 Zakwalifikowaliśmy się do finału top5 w ramach kategorii.
 
-![](./zaswiadczenie.png "Zaświadczenie")
+![](./zaswiadczenie.jpg "Zaświadczenie")
 
 __Inner Savages__ reprezentowali:
  - Izabela Skora
