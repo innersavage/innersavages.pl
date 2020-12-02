@@ -1,7 +1,7 @@
 ---
 title: HackYeah 2020 Online November
 date: "2020-12-02"
-featuredImage: './hackyeah.jpg'
+featuredImage: './hackyeah2020.jpg'
 ---
 
 27-29 listopada 2020 wzięliśmy udział w HackYeah 2020 Online November. Imprezę zakończyliśmy z drobnym, aczkolwiek
