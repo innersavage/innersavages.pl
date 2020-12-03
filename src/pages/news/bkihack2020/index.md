@@ -25,7 +25,7 @@ __Outer Savages__ w składzie:
  
 zdobywają 1 miejsce projektem __Smart Sharing__.
 
-![](./1stplace.jpeg "Pierwsze miejsce")
+![](./1stplace.jpeg "Pierwsze miejsce") 
 
 __Inner Savages__ w składzie:
  - Izabela Skora
@@ -34,6 +34,6 @@ __Inner Savages__ w składzie:
 
 zdobywają 3 miejsce projektem __W Kontakcie__.
 
-![](./3rdplace.jpeg "Trzecie miejsce")
+![](./3rdplace.jpeg "Trzecie miejsce") 
 
 Gratulujemy wszystkim zwycięzcom i uczestnikom. Do zobaczenia za rok!

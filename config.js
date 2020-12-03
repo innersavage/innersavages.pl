@@ -9,6 +9,6 @@ module.exports = {
   postsPerPage: 5, // Required
   social: {
   },
-  pathPrefix: '/devblog',
-  siteUrl: 'https://ryanfitzgerald.github.io/devblog/',
+  pathPrefix: '/',
+  siteUrl: 'https://innersavages.pl/',
 };

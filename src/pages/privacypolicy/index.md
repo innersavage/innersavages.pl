@@ -41,11 +41,11 @@ Jeśli zdecydujesz się usunąć lub wyłączyć te pliki cookie, reklamy nadal 
 odpowiednie dla Ciebie.
 
 Dostawcy zewnętrzni, w tym Google, używają plików cookie do wyświetlania reklam na podstawie poprzednich odwiedzin 
-użytkownika na stronie szymanski.ninja lub innych witrynach.
+użytkownika na stronie innersavages.pl lub innych witrynach.
 
 Pliki cookie do wyswietlania reklam umożliwiają firmie Google i jej partnerom wyświetlanie użytkownikom konkretnych 
 reklam na podstawie ich odwiedzin w witrynie szymanski.ninja i/lub innych witrynach internetowych
 
 Użytkownicy mogą zrezygnować ze spersonalizowanych reklam w Ustawieniach reklam. Użytkownicy mogą też zrezygnować z 
 wykorzystywania plików cookie innych firm do wyświetlania spersonalizowanych reklam. Wystarczy wejść na stronę 
-www.aboutads.info.)
+www.aboutads.info.
