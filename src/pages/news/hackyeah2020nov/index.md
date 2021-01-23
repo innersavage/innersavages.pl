@@ -26,3 +26,6 @@ __Inner Savages__ reprezentowali:
  - Łukasz Szymański 
 
 Do zobaczenia za rok!
+
+Edit: Zajawka naszego projektu została opublikowana na stronie HackYeah, do obejrzenia 
+pod adresem https://hackyeah.pl/2020/12/10/the-finalist-inner-savages/
