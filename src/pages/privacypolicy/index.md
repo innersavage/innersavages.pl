@@ -49,3 +49,8 @@ reklam na podstawie ich odwiedzin w witrynie szymanski.ninja i/lub innych witryn
 Użytkownicy mogą zrezygnować ze spersonalizowanych reklam w Ustawieniach reklam. Użytkownicy mogą też zrezygnować z 
 wykorzystywania plików cookie innych firm do wyświetlania spersonalizowanych reklam. Wystarczy wejść na stronę 
 www.aboutads.info.
+
+# Nagroda
+Skoro dotarłeś aż tutaj to zasługujesz na słodkiego kotka.
+
+![](./cat.jpeg "Słodki kotek") 
